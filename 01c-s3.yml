@@ -19,7 +19,7 @@ Resources:
       BucketName: !Join [ "-", [ !Ref EnvironmentName, !Ref BucketNameParam ] ]
       AccessControl: PublicRead
       WebsiteConfiguration:
-        IndexDocument: index12345.html
+        IndexDocument: index.html
         ErrorDocument: error12345.html
       BucketEncryption:
         ServerSideEncryptionConfiguration:
